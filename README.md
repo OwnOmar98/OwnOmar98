@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Own 👋</h1>
-<h3 align="center">Backend Engineer · NestJS · Spring Boot · Python · PostgreSQL · Redis</h3>
+<h3 align="center">Full-Stack Engineer (Backend-Focused) · Java / Spring Boot · NestJS · Python / FastAPI · React · Vue</h3>
 
 <p align="center">
   <a href="https://linkedin.com/in/own-abu-hamour"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -9,22 +9,20 @@
 
 ## 💫 About Me
 
-I'm a backend engineer from Amman, Jordan 🇯🇴 who turns complex business logic into clean, scalable APIs ⚙️
+I'm a full-stack engineer from Amman, Jordan 🇯🇴 with 3.5 years of production experience, mostly on the backend ⚙️
 
-🏢 By day I build systems for an e-learning platform 🎓 and a Saudi real-estate platform 🏠 using NestJS, Spring Boot ☕, Django 🐍, PostgreSQL 🐘 and Redis ⚡
+🏠 **Dallali**, a Saudi real-estate platform: I build the Spring Boot core API (contracts, HyperPay payments, a transactional outbox publishing events over RabbitMQ), a Python / FastAPI service that integrates Saudi government services (Nafath, REGA, RER), and the React frontend
 
-🤖 Lately I've been diving into AI with Python, building things like Sarjy, a bilingual Arabic/English voice assistant with memory and tool use 🎙️
+🎓 **Knowledge Pathways**, a multi-tenant learning platform: I build the NestJS backend (375+ data models, Redis caching, 23 job queues, real-time updates over SSE, four payment gateways, RBAC and SAML SSO) and its Vue frontends
 
-🤝 I'm open to collaborating on backend or AI projects in Node.js, Java or Python
+🤖 On the AI side I built Sarjy, a bilingual Arabic/English voice agent with tool calling, RAG memory and a CI eval harness 🎙️
 
-💬 Ask me about APIs, databases, caching, or how a mechanical engineer ended up writing code 🔧➡️💻
-
-⚡ Fun fact: I won an international computer olympiad back in high school 🏆
+🔧➡️💻 I studied mechanical engineering and moved into software in 2023. I won first place at an international computer olympiad in high school 🏆
 
 ## 🚀 Featured Projects
 
-- 🎙️ **[Sarjy](https://github.com/OwnOmar98/sarjy)**: Bilingual (AR/EN) voice assistant with memory and tool use. _Python · Vue · TypeScript · Docker_
-- ✅ **[TaskForge API](https://github.com/OwnOmar98/taskforge-api)**: Multi-tenant SaaS task management API. _Spring Boot · Spring Security (JWT) · PostgreSQL · Flyway · Redis · Testcontainers_
+- ✅ **[TaskForge API](https://github.com/OwnOmar98/taskforge-api)**: Multi-tenant task management REST API. JWT auth with rotating refresh tokens, role-based permissions, a transactional outbox to RabbitMQ, outbound webhooks with retries and circuit breakers, real-time SSE, audit logging, and a full Testcontainers suite in CI. _Java 25 · Spring Boot 4 · Spring Security · PostgreSQL · Flyway · Redis · RabbitMQ · Resilience4j_
+- 🎙️ **[Sarjy](https://github.com/OwnOmar98/sarjy)**: Bilingual (AR/EN) voice assistant that handles mid-sentence code-switching. The LLM chains tool calls to manage a calendar, remembers users across sessions through RAG on pgvector, fails over between STT, LLM and TTS providers, and is checked by a CI eval harness that reports p50/p95 latency. _Python · LiveKit Agents · PostgreSQL + pgvector · Nuxt · TypeScript_
 
 ## 💻 Tech Stack
 
@@ -34,7 +32,7 @@ I'm a backend engineer from Amman, Jordan 🇯🇴 who turns complex business lo
 
 **Backend**
 
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge&logo=typeorm&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Swagger](https://img.shields.io/badge/-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TypeORM](https://img.shields.io/badge/TypeORM-FE0803?style=for-the-badge&logo=typeorm&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Swagger](https://img.shields.io/badge/-Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
 **Databases**
 
